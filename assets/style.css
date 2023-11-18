@@ -5,34 +5,38 @@
 
 .header{
     position: fixed;
-    margin: -2%;
+    margin: -3%;
     padding: 1% 60%;
     border-bottom: solid 8px;
     border-color: pink;
     background-color: rgb(127, 219, 255);
     display:flex;
+    z-index: 6;
 }
 
 #sociallinks{
     position: relative;
     left: 85%;
+    top: 0.5em;
 }
 
 .wip{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    /* width: 30%; */
+    text-align: center;
+    justify-content: center;
 }
 
 #comingsoon{
     position: relative;
-    padding: 20px;
+    padding: 1em;
     background-color: rgb(127, 219, 255);
     border: solid;
     border-color: pink;
-    padding-top: 10%;
-    padding-bottom: 30%;
+    padding-top: 1em;
+    padding-bottom: 10em;
 }
 
 h1{
@@ -49,14 +53,19 @@ h3 {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
-    bottom: 150px;
+    /* width: 20%; */
+    bottom: 10em;
+    text-align: center;
+    justify-content: center;
 }
 
 #sendButton{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
     background-color: pink;
-    text-align: center;
-    width: 100%;
+    width: 5em;
+    justify-content: center;
 }
 
 .footer{
